@@ -1,6 +1,7 @@
-package com.example.consumingrest;
+package com.gandzha.consumingrest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.gandzha.consumingrest.Value;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
